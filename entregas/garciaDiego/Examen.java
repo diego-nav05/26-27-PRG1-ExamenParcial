@@ -1,3 +1,5 @@
+package entregas.garciaDiego;
+
 import java.util.Scanner;
 
 class Examen {
@@ -15,7 +17,12 @@ class Examen {
         } else {
             System.out.println("Es menor de edad");
         }
-
+        final int NUMERO_ASIGNATURAS;
+        System.out.println("Introduce número de asignaturas entre 0 y 10: ");
+        do {
+            Scanner NUMERO_ASIGNATURAS = new Scanner(System.in);
+        } while (NUMERO_ASIGNATURAS>10);
+        System.out.println("Está matriculado a: " + NUMERO_ASIGNATURAS + "asignaturas");
 
     }
     
